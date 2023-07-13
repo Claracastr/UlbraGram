@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UlbraGram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col 12 col-lg-2 pt-lg-5 pb-lg-2 border-end">
+                <h5 class="text-center d-none d-lg-block">UlbraGram</h5>
+                <nav class="navbar navbar-expand-lg">
+                    <h5 class="text-center d-block d-lg-none">UlbraGram</h5>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-expanded="false"
+                        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-4" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="index.html"><i class="bi bi-house-door me-2"></i> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-search me-2"></i>Pesquisar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-compass me-2"></i>Explorar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-camera-reels me-2"></i>Reels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-chat me-2"></i></i>Mensagens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-bell me-2"></i>Notificação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-plus-circle me-2"></i>Criar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="perfil.html"><i
+                                        class="bi bi-person-circle me-2"></i>Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i
+                                        class="bi bi-three-dots-vertical me-2"></i>Mais</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu"
+                aria-labellebdy='offcanvarMenuLabel'>
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html"><i class="bi bi-house-door me-2"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-search me-2"></i>Pesquisar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-compass me-2"></i>Explorar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-camera-reels me-2"></i>Reels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-chat me-2"></i></i>Mensagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-bell me-2"></i>Notificação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-plus-circle me-2"></i>Criar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="perfil.html"><i class="bi bi-person-circle me-2"></i>Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i
+                                    class="bi bi-three-dots-vertical me-2"></i>Mais</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profilePrincipal col-12 col-lg-7 mt-20 pl-40">
+                <div class="profile row">
+                    <div class="col-4 text-center">
+                        <img src="https://i.pinimg.com/564x/30/f6/b6/30f6b67563fc6353837b691e7d41e216.jpg" alt="Perfil">
+                    </div>
+                    <div class="col pt-200">
+                        <div class="row pl-20">
+                            <div class="col-3">
+                                <h4>GamesPsn</h4>
+                                <p><strong>1,623</strong>posts</p>
+                            </div>
+                            <div class="col-3">
+                                <button class="px-3 mb-2"><strong>Followers</strong></button>
+                                <p><strong>10M</strong>Followers</p>
+                            </div>
+                            <div class="col-4">
+                                <div class="mb-2">
+                                    <button><strong>Following</strong><i
+                                            class="bi bi-chevron-compact-down"></i></button>
+                                    <button><i class="bi bi-person-plus"></i></button>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                                <p><strong>13443</strong>Following</p>
+                            </div>
+                            <div class="row">
+                                <p><strong>Playstation Games</strong><br>
+                                    Para Aventureiros incansáveis, mergulhando em histórias épicas no PS!⚔️<br>
+                                    <a
+                                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiEwbe4poyAAxWdOdQBHbtYCB0YABAAGgJvYQ&ohost=www.google.com&cid=CAESbeD2hzuP-CWet06QOTd0h1xSwNrhHo0txfcitnizE-f4j3NAsNaxrS66IFTwC5MjRH7p-nR2es2U-_DuuZVVy6s-PpD87z7TUYCxcK2_-TtpgvBzLLcmZNObcMQgELn8dv_58dWotCsdONMMHsM&sig=AOD64_1yf3mfErqtI92S6v6_p7iRVJZsAA&q&adurl&ved=2ahUKEwjxoKu4poyAAxUnrpUCHTALDAUQ0Qx6BAgIEAE">Playstation</a>
+                                </p>
+                                <p>Followed by<strong> Playstation_br</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="row d-flex justify-content-center mr-20 mt-4">
+                        <div class="story text-center">
+                            <img src="https://i.pinimg.com/236x/72/6e/fe/726efeefb353be0d9d2700e28fb9433c.jpg"
+                                alt="imagem">
+                            <p class="mt-1">Top 10</p>
+                        </div>
+                        <div class="story text-center">
+                            <img src="https://i.pinimg.com/236x/88/64/67/8864679cbda2a9ebe88dd88b84dc4290.jpg"
+                                alt="imagem">
+                            <p class="mt-1">TLOUS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigationProfile row mt-5 mb-2 pt-1 d-flex justify-content-center align-items-center">
+                    <div class="col-2"> <i class="bi bi-grid-3x3"></i> POSTS</div>
+                    <div class="col-2"><i class="bi bi-youtube"></i> REELS</div>
+                    <div class="col-2"><i class="bi bi-person-square"></i> TAGGED</div>
+                </div>
+                <div class="conteiner">
+                    <div class="row">
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/564x/0a/4a/c8/0a4ac82fc154ecc6b6c0c9412975c0c0.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/564x/c6/bc/5f/c6bc5f1ff49914bba3a0ac4f9feca1b5.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/236x/56/f0/87/56f087db7865c0a412873f64956c29ac.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/236x/d0/e3/3c/d0e33cad332b1c288f531531320f6271.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/236x/39/5a/54/395a5444eddea89f80c304e68ede2985.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/236x/88/60/3b/88603b6643871731d933cd3c44463b5a.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/236x/a3/2e/e0/a32ee0b6aaf06312d83583247f4cfd19.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/236x/32/bc/9f/32bc9f98cba446db229d769a83779461.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/564x/0a/4a/c8/0a4ac82fc154ecc6b6c0c9412975c0c0.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/564x/0a/4a/c8/0a4ac82fc154ecc6b6c0c9412975c0c0.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/564x/0a/4a/c8/0a4ac82fc154ecc6b6c0c9412975c0c0.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class=" col-4 mb-1 mr-1">
+                            <img src="https://i.pinimg.com/564x/0a/4a/c8/0a4ac82fc154ecc6b6c0c9412975c0c0.jpg" alt="foto" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
